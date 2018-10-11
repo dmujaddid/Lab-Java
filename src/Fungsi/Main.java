@@ -10,16 +10,15 @@ package Fungsi;
  * @author eka
  */
 public class Main {
-    
+
     // membuat fungsi salam
     static void ucapSalam() {
         System.out.println("Assalmu'alaikum");
     }
-    
-    
+
     // membuat fungsi main()
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         ucapSalam();
     }
-    
+
 }

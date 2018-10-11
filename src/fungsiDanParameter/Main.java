@@ -10,17 +10,16 @@ package fungsiDanParameter;
  * @author eka
  */
 public class Main {
-    
-    // fungsi dengan paramter
+
+    // fungsi dan paramter, dengan tidak mengembalikan nilai/void
     static void ucapin(String ucapan) {
         System.out.println(ucapan);
     }
-    
-    
+
     public static void main(String[] args) {
         ucapin("hello");
         ucapin("Selamat Datang");
-        
+
     }
-    
+
 }
